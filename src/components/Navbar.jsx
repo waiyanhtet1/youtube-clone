@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import { logo } from "../utils/contants";
 import { Link } from "react-router-dom";
 import { SearchForm } from "../components";
