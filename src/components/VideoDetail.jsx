@@ -35,7 +35,7 @@ const VideoDetail = () => {
     <Box minHeight="95vh">
       <Stack direction={{ xs: "column", md: "row" }}>
         <Box flex={1}>
-          <Box position="sticky" top="86px" width="100%">
+          <Box position="sticky" top="86px" width="95%" margin="0 auto">
             <ReactPlayer
               url={`https://www.youtube.com/watch?v=${id}`}
               className="react-player"
@@ -45,7 +45,11 @@ const VideoDetail = () => {
               {title}
             </Typography>
 
-            <Stack direction="row" justifyContent="space-between">
+            <Stack
+              direction="row"
+              flexWrap="wrap"
+              justifyContent="space-between"
+            >
               <Link to={`/channel/${channelId}`}>
                 <Typography
                   variant={{ sm: "subtitle1", md: "h6" }}
