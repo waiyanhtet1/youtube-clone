@@ -11,6 +11,7 @@ const Navbar = () => {
       justifyContent="space-between"
       p={2}
       sx={{ position: "sticky", top: 0, backgroundColor: "#000" }}
+      zIndex={999}
     >
       <Link to="/">
         <img src={logo} alt="logo" height={45} />
