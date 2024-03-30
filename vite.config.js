@@ -12,7 +12,7 @@ export default defineConfig(({ command, mode }) => {
     plugins: [react()],
     define: {
       "process.env.REACT_APP_RAPID_API_KEY": JSON.stringify(
-        "e0364d43a4msh9f644f667a1df37p168503jsnad551fd2695a"
+        "a0f4c6405fmshd3b3dcfb41f5e24p13aa23jsn35c605b18b51"
       ),
       // "process.env.YOUR_BOOLEAN_VARIABLE": env.YOUR_BOOLEAN_VARIABLE,
       // If you want to exposes all env variables, which is not recommended
