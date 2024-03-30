@@ -9,7 +9,7 @@ const Feed = () => {
 
   useEffect(() => {
     fetchAPI(`search?part=snippet&q=${selectedCategory}&maxResults=50`).then(
-      (data) => setVideos(data.items)
+      (data) => setVideos(data?.items)
     );
   }, [selectedCategory]);
 
